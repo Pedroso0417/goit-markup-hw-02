@@ -4,51 +4,52 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Homework-02</title>
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css" />
     <link rel="stylesheet" href="./css/styles.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css" />
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,800;1,800&family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&display=swap"
-            rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+        <link  href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"/>
   
   </head>
+  <body>
   <header class="header">
     <!-- This is the comment -->
     <a href="./index.html" class="logo-web link">
-      <span class="logo-studio-white">WEB<span class="studio">STUDIO</span></span>
+      <span class="logo-studio-white">WEB</span><span class="studio-header">STUDIO</span>
     </a>
-    <nav class="header-navigation">
-      <ul class="header-list list">
-        <li>
-          <a class=" header-link link" href="./index.html">Studio</a>
+    <nav class="header-address-navigation">
+      <ul class="header-address list">
+        <li class="header-address-item">
+          <a class=" header-link  current-page link" href="./index.html">Studio</a>
         </li>
         <li class="header-item">
-          <a class="header-link link" href="./portfolio.html">Portfolio</a>
+          <a class="header-address-link link" href="./portfolio.html">Portfolio</a>
         </li>
-        <li class="header-item">
+        <li class="header-address-item">
           <a class="header-link link" href="./Contacts">Contacts</a>
         </li>
       </ul>
     </nav>
     <ul class="header-address list">
-      <li class="hero-item">
-        <a class="hero-link link" href="mailto:info@devstudio.com">info@devstudio</a>
+      <li class="header-address-item">
+        <a class="header-address-link link" href="mailto:info@devstudio.com">info@devstudio</a>
       </li>
-      <li class="header-item">
-        <a class="header-address" href="tel+110001111111">+11 (000) 111-11-11</a>
+      <li class="header-address-item">
+        <a class="header-address-link link" href="tel+110001111111">+11 (000) 111-11-11</a>
       </li>
     </ul>
   </header>
     <main>
 
     <section class="hero-image">
-    <h1 class="hero-title">Effective Solutions <br/> for You Business</h1>
+    <h1 class="hero-title">Effective Solutions <br/> for Your Business</h1>
     <button class="hero-button" type="button">Order Service</button>
     </section>
     <section class="meaning">
     <ul class="meaning-list list">
     <li class="meaning-item">
-    <h3 class="meaning-title section-title">Stategy</h3>
+    <h3 class="meaning-title section-title">Strategy</h3>
     <p class="meaning-bottom-text">Our goal is to identify the business problem to walk away with the perfect and creative solution</p>
     </li>
     
@@ -67,7 +68,7 @@
     </ul>
     </section>
     <section class="section">
-    <h2 class="about-title section-title">What are we doing</h2>
+    <h2 class="section-title">What are we doing</h2>
     <ul class="what-we-do list">
     <li class="what we do_item"><img src="./images/img 1.jpg" width="360" alt="monitor"/>
     </li>
@@ -80,41 +81,42 @@
     </ul>
 
 <section>
-    <h2 class="team">Our Team</h2>
+    <h2 class="section-title">Our Team</h2>
     <!-- Inside each <li>, there are some picture -->
-        <ul class="about-list list">
-            <li class="about-item">
+        <ul class="team-list list">
+            <li class="team-item">
                 <img src="./images/team1.jpg" alt="Mark Guerrero" width="264">
-<h3 class="team-item title">Mark guerrero</h3>
-<p class="team-title position-text">product designer</p>
+<h3 class="team-title">Mark Guerrero</h3>
+<p class="team-position">Product Designer</p>
             </li>
 
-            <li class="about-list list">
-              <img src="./images/team2.jpg" alt="Tom Ford" width="264px"></li>
-            <h3 class="team-item title">Tom Ford</h3>
-            <p class="team-title position-text">Frontend Developer</p>
+            <li class="team-item">
+              <img src="./images/team2.jpg" alt="Tom Ford" width="264px">
+            <h3 class="team-title">Tom Ford</h3>
+            <p class="team-position">Frontend Developer</p>
+            </li>
 
-            <li class="about-list list">
-              <img src="./images/team3.jpg" alt="Camila Garcia" width="264"></li>
-            <h3 class="team-item title">Camila Garcia</h3>
-            <p class="team-title position-text">Marketing</p>
+            <li class="team-item">
+              <img src="./images/team3.jpg" alt="Camila Garcia" width="264">
+            
+            <h3 class="team-title">Camila Garcia</h3>
+            <p class="team-position">Marketing</p>
+            </li>
 
-            <li class="about-list list">
-              <img src="./images/team4.jpg" alt="Daniel Wilson" width="264"></li>
-            <h3 class="team-item title">Daniel Wilson</h3>
-            <p class="team-title position-text">UI Designer</p>
+            <li class="team-item">
+              <img src="./images/team4.jpg" alt="Daniel Wilson" width="264">
+            <h3 class="team-title">Daniel Wilson</h3>
+            <p class="team-position">UI Designer</p>
+            </li>
           
         </ul>
 </section>
 </main>
 <footer class="footer">
   <a href="./index.html" class="logo-web link">
-    <span class="logo-studio-white">WEB<span class="studio-footer">STUDIO</span></span>
-  </a>
-    <p class="footer-text text">
-      Increase the flow of customers and <br>sales for your business with
-      digital</br>
-      marketing & growth solutions.
+      <span class="logo-studio-white">WEB</span><span class="studio">STUDIO</span></a>
+    <p class="footer-text text">Increase the flow of customers and <br>sales for your business with
+      digital</br>marketing & growth solutions.
     </p>
     </footer>
   </body>
