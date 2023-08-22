@@ -121,9 +121,9 @@ body {
   letter-spacing: 0.64px;
   cursor: pointer;
 }
-.button-filter:hover {
+.button-filter:hover,
+.button-filter:focus {
   background-color: var(--ocean);
-  cursor: pointer;
   color: var(--white);
   border: 1px solid var(--ocean);
 }
@@ -131,6 +131,10 @@ body {
   background: var(--ocean);
   color: var(--white);
   border: 1px solid var(--ocean);
+  border-radius: 4px;
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
+    0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
+  boarder: 1px solid var(--ocean);
 }
 
 .hero-image {
@@ -140,7 +144,6 @@ body {
 .hero-title {
   color: var(--white, #fff);
   text-align: center;
-  padding-bottom: 24px;
   font-size: 56px;
   font-weight: 700;
   line-height: 60px; /* 107.143% */
@@ -164,7 +167,7 @@ body {
 .meaning-title {
   color: var(--slate);
   font-size: 20px;
-  font-weight: 500px;
+  font-weight: 500;
   letter-spacing: 0.4px;
 }
 
@@ -227,7 +230,6 @@ body {
 }
 .team-position {
   color: var(--slate, #434455);
-  display: inline-flex;
 }
 .project-list-list {
   display: inline-flex;
@@ -238,7 +240,6 @@ body {
 }
 
 .footer {
-  height: 312px;
   background: var(--navyblue, #2e2f42);
 }
 
